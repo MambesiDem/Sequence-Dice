@@ -1,7 +1,7 @@
 # Sequence-Dice
 
 Sequence-Dice is a digital version of the Sequence-Dice board game developed in Java and Android. The project demonstrates clean architecture, SOLID principles, and reuse of a single game model across multiple user interfaces.
----
+
 ## Game Overview
 
 2–4 players (including team-based play)
@@ -49,7 +49,7 @@ Console Version
 Text-based menu-driven gameplay
 
 Demonstrates full decoupling of game logic from UI
----
+
 ## Technologies Used
 
 Java
