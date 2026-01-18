@@ -11,7 +11,7 @@ Sequence-Dice is a digital version of the Sequence-Dice board game developed in 
 Two six-sided dice
 
 Goal: form a winning sequence of tokens in a row, column, or diagonal
----
+
 ## Architecture
 
 Pure Java game model (SequenceDice)
