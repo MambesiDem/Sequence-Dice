@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".GameActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt00"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt01"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt02"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt03"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt04"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt05"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="2"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt14"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt15"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="3"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt20"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt21"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt22"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt23"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt24"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt25"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="4"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt30"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt31"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt32"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt33"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt34"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt35"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="5"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt40"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt41"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt42"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt43"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt44"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt45"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="6"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt50"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt51"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt52"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt53"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt54"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt55"
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:background="@drawable/txt_bordered"
+                android:gravity="center"
+                android:onClick="onCellClicked"
+                android:text="2"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="118dp"
+        android:text="Sequence Dice"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FF5722"
+        android:onClick="onBtnRollClicked"
+        android:text="Roll"
+        app:layout_constraintTop_toBottomOf="@+id/imgDice1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/txtPlayerTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/txtTokenState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="182dp"
+        android:textColor="#26C6DA"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <ImageView
+        android:id="@+id/imgDice1"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgDice2"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:srcCompat="@drawable/dice_1" />
+
+    <ImageView
+        android:id="@+id/imgDice2"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37"
+        app:srcCompat="@drawable/dice_2" />
+
+    <TextView
+        android:id="@+id/txtP1Roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgDice1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtP2Roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgDice1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtP1Roll" />
+
+    <TextView
+        android:id="@+id/txtP3Roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRoll"
+        app:layout_constraintEnd_toStartOf="@+id/imgDice1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtP2Roll" />
+</androidx.constraintlayout.widget.ConstraintLayout>

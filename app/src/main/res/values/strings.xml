@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Task01</string>
+    <string name="welcoming">Welcome to Sequence-Dice</string>
+    <string name="start_game">Start Game</string>
+    <string name="read_rules">Read Rules</string>
+    <string name="view_leader_board">View Leader Board</string>
+    <string name="enter_the_number_of_players">Enter the number of Players</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_the_name_of_player_4">Enter the name of Player 4</string>
+    <string name="enter_the_name_of_player_3">Enter the name of Player 3</string>
+    <string name="enter_the_name_of_player_2">Enter the name of Player 2</string>
+    <string name="enter_the_name_of_player_1">Enter the name of Player 1</string>
+<!--    <string name="rules">-->
+<!--        The game is played on a 6x6 board with cells numbered 2 to 12. \n-->
+<!--        Players use two six-sided dice and colored tokens. \n-->
+<!--        In a four-player game, two teams of two players each compete.\n-->
+<!--        Objective:\n-->
+<!--        -Be the first to form a sequence of five (or six in a 3 or 4-player game) tokens in a row, column, or diagonal.\n\n-->
+<!--        How to Play:\n-->
+<!--        To start, each player rolls the dice. The highest total goes first. \n-->
+<!--        Turns proceed clockwise. On each turn, a player rolls the dice and follows the rules based on the sum: \n-->
+<!--        Sum matches an empty cell: Place a token on a matching numbered cell. \n-->
+<!--        Sum matches an occupied cell: Replace an opponent's token with your own. \n-->
+<!--        Sum is 2 or 12: After placing or replacing a token, you get an extra turn. \n-->
+<!--        Sum is 10 (Defensive Roll): Remove an opponent's token, except from grey cells (2s and 12s). \n-->
+<!--        Sum is 11 (Wild Roll): Place a token in any empty cell. \n-->
+<!--        Play continues until a player or team achieves the objective. \\n-->
+<!--    </string>-->
+    <string name="exit">Exit</string>
+    <string name="not_one_player">You cannot have one player.</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="p2">Player 2</string>
+    <string name="player_3">Player 3</string>
+    <string name="p3">Player 3</string>
+    <string name="team_1">Team 1</string>
+    <string name="t1">Team 1</string>
+    <string name="t2">Team 2</string>
+    <string name="start_the_game">Start the game</string>
+    <string name="play">Play</string>
+    <string name="winning_team">"Winning Team: "</string>
+    <string name="restart_game">Restart Game</string>
+    <string name="watch_how_to_play">Watch how to play</string>
+    <string name="game_rules">Game Rules</string>
+
+</resources>
